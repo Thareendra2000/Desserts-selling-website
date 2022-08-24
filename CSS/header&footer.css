@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noticia+Text&family=Shadows+Into+Light&display=swap');
+:root{
+    --darkblue:#130f40;;
+    --lightblue:#c8e1f4;
+    --yellow:#E9C46A;
+    --black:#000507;
+    --orange:#ff7800;
+    --light-orange:#fdc798;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+.header{
+    display :flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    border:0px;
+  
+    justify-content: space-between;
+    
+     
+    }
+.header h3{
+    text-align: left;
+    font-size:24px;
+    padding:5px;
+    margin:5px;
+    color:var(--darkblue);
+    font-family:'Kaushan Script', cursive;
+   
+}
+.header i{
+    font-size:24px;
+    padding:5px;
+    margin:5px;
+    color:var(--light-orange);
+ 
+        
+}
+    
+.centermenu{
+    position: relative;
+  
+    justify-content: center;
+    justify-content: space-between;
+    font-size:20px;
+    padding:10px;
+    margin:10px;
+    color:var(--orange);
+    font-family:tahoma;
+}
+
+.centermenu a{
+    text-decoration:none;
+    
+    padding:5px;
+    margin:5px;
+    color:var(--orange);
+    font-family:tahoma;
+}
+
+.centermenu a:hover{
+    text-decoration:underline;
+    transform: 0.1s;
+    padding:5px;
+    margin:5px;
+    color:var(--darkblue);
+    font-family:tahoma;
+  
+}
+
+.btn-box{
+    position: relative;
+    justify-content: center;
+    justify-content: space-between;
+    margin:5px;
+}
+
+.btn-box .btn{
+    padding:10px;
+    margin: 5px;
+    width:70px;
+    border: 0px;
+    border-radius: 5px;
+    font-size:16px;
+    background-color: var(--orange);
+    color:white;
+    font-family:tahoma;
+    cursor: pointer;
+}
+
+.btn-box i{
+    padding:10px;
+    margin: 5px;
+    
+    font-size:28px;
+    
+    color:var(--orange);
+    
+    cursor: pointer;
+}
+
+.btn-box i:hover{
+    padding:10px;
+    margin: 5px;
+    
+    font-size:28px;
+    
+    color:var(--darkblue);
+    
+    cursor: pointer;
+}
+
+.btn-box .btn:hover{
+    padding:10px;
+    margin: 5px;
+    width:70px;
+    border: 0px;
+    border-radius: 5px;
+    font-size:16px;
+    background-color: var(--darkblue);
+    color:white;
+    font-family:tahoma;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:white ;
+}
+
+
+@media(max-width:700px){
+    .header h3 {
+        font-size: 98%;
+        padding:1px;
+        margin:1px;
+    }
+    .header i {
+        font-size: 98%;
+    }
+    .centermenu{
+        position: relative;
+      
+        justify-content: center;
+        justify-content: space-between;
+        font-size:80%;
+        padding:5px;
+        margin:5px;
+        color:var(--orange);
+        font-family:tahoma;
+    }
+    .btn-box .btn{
+        padding:3px;
+        margin: 2px;
+        width:50px;
+        border: 0px;
+        border-radius: 3px;
+        font-size:80%;
+        background-color: var(--orange);
+        color:white;
+        font-family:tahoma;
+        cursor: pointer;
+    }
+    .btn-box .btn:hover{
+        padding:3px;
+        margin: 2px;
+        width:50px;
+        border: 0px;
+        border-radius: 3px;
+        font-size:80%;
+        background-color: var(--darkblue);
+        color:white;
+        font-family:tahoma;
+        cursor: pointer;
+    }
+}
+
+

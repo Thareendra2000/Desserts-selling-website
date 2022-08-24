@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noticia+Text&family=Shadows+Into+Light&display=swap');
+:root{
+    --darkblue:#130f40;;
+    --lightblue:#c8e1f4;
+    --yellow:#E9C46A;
+    --black:#000507;
+    --orange:#ff7800;
+    --light-orange:#fdc798;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+/*about*/
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    width:100%;
+    
+}
+.about .main{
+    width: 58%;
+}
+.about .discription{
+    padding: 15px;
+    width:40%;
+    margin-top: 0;
+    background-color:aliceblue;
+    font-family: 'Noticia Text', serif;
+    font-size: 20px;
+
+}
+.heading{
+    color: var(--darkblue);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+    font-weight: bold;
+   
+}
+
+.heading i{
+    color: var(--orange);
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+   
+}
+/*menu cards*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+   position: relative;
+   justify-content: center;
+}
+
+.menucard{
+    position: relative;
+   justify-content: center;
+    width:350px;
+    margin:20px;
+    padding: 10px;
+    border:0px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.menucard img{
+    width:300px;
+    height: 250px;
+}
+
+.menucard .addTocart{
+    padding:10px;
+    margin: 5px;
+    width:100%;
+    border: 0px;
+    border-radius: 5px;
+    font-size:16px;
+    background-color: var(--orange);
+    color:white;
+    font-family:tahoma;
+    cursor: pointer;
+}
+
+.menucard .addTocart:hover{
+    padding:10px;
+    margin: 5px;
+    width:100%;
+    border: 0px;
+    border-radius: 5px;
+    font-size:16px;
+    background-color: var(--darkblue);
+    color:white;
+    font-family:tahoma;
+    cursor: pointer;
+}
+.menucard #topic{
+    background-color: var(--lightblue);
+    font-family: Tahoma;
+    padding: 5px;
+}
+.menucard p{
+    font-family: 'Noticia Text', serif;
+    color: #000507;
+    font-size: 18px; 
+}
+.price{
+    font-size: 24px;
+    font-family:Tahoma;
+    color: var(--darkblue);
+}
+/*review card*/
+
+.Review{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+   position: relative;
+   justify-content: center;
+}
+.reviewcard{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+   justify-content: center;
+    width:600px;
+    margin:20px;
+    padding: 10px;
+    border:0px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+.reviewcard .rbox{
+    border:0px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    background-color:antiquewhite;
+    width:360px;
+    margin:10px;
+    text-align: left;
+    padding: 10px;
+
+
+}
+.reviewcard img{
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 80px;
+    box-shadow: var(--box-shadow);
+}
+.reviewcard .checked {
+    color: orange;
+  }
+
+.reviewcard #rname{
+    color:var(--darkblue);
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ #review{
+    padding:10px;
+    margin: 5px;
+    width:200px;
+    border: 0px;
+    border-radius: 5px;
+    font-size:16px;
+    background-color: var(--orange);
+    color:white;
+    font-family:tahoma;
+    cursor: pointer;
+}
+
+ #review:hover{
+    padding:10px;
+    margin: 5px;
+    width:200px;
+    border: 0px;
+    border-radius: 5px;
+    font-size:16px;
+    background-color: var(--darkblue);
+    color:white;
+    font-family:tahoma;
+    cursor: pointer;
+}
+
+ 
